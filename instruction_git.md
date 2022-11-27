@@ -129,4 +129,6 @@ VSСode дает возможность выбрать какое изменен
     git branch -M main/master
     git push -u origin main/master
 
-    
+Чтобы начать работать со скаченным репозиторием, необходимо ввести команду:
+
+    cd <name remote repo>
