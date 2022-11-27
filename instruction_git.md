@@ -122,3 +122,11 @@ VSСode дает возможность выбрать какое изменен
 ### Связывание локального репозитория с удаленным
 
 Чтобы создать на GitHub удаленный репозиторий, нужно в разделе Repositories нажать кнопку New/Create.
+
+Чтобы связать этот репозиторий с локальным, необходимо ввести 3 команды друг за дргуом:
+
+    git remote add origin <adress remote repos>
+    git branch -M main/master
+    git push -u origin main/master
+
+    
