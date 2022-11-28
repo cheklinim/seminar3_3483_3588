@@ -139,3 +139,5 @@ To carry file from opened git hub resource directly to own personal account on g
 1. Fork fuction - allows to create a copy from outsource resources in global repository to own personal account in global repository
 
 2. Link for clone - after file has been copied special html link become available. To carry file from global repository to local repository for futher file handling we should use link copy. Link copy has to be inputed at the local git terminal. File wil be downloaded to local PC
+
+3. File changes should be done on additional created branch. Do not recomedet using master branch for changing 
