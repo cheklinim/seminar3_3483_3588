@@ -143,3 +143,5 @@ To carry file from opened git hub resource directly to own personal account on g
 3. File changes should be done on additional created branch. Do not recomedet using master branch for changing 
 
 4. If changig are done use push function to carry new changes to global git hub own store
+
+5. after changes downloaded to global git hub store possibly to use request function which allows to suggest to owner of file to accept of changes 
