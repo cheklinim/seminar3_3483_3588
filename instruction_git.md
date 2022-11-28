@@ -126,7 +126,8 @@ Before start file remote pushing should create remote repository on Git hub port
 
 <hr>
 
-## Pulling remote changing to original file
+## Pulling remote changes to original file
     
 Sometimes we need to input changes when origin file isn't available. In that case we able to use git hub editor for changing. Then locally we should use pull command at VS studio to bring new changes at file localy 
     
+## 
