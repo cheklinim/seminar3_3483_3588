@@ -132,7 +132,7 @@ Sometimes we need to input changes when origin file isn't available. In that cas
     
 <hr>
 
-## Cloning of file from global to local 
+## Cloning of file from global to local repository 
 
 To carry file from opened git hub resource directly to own personal account on git hub we need to implement few steps:
 
