@@ -147,3 +147,5 @@ $ git push
 
 Для того, чтобы «привязать» к своему git-хранилищу другое, служит команда remote clone:
     $ git clone <имя>
+
+    END of seminar 3
