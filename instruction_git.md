@@ -130,4 +130,9 @@ Before start file remote pushing should create remote repository on Git hub port
     
 Sometimes we need to input changes when origin file isn't available. In that case we able to use git hub editor for changing. Then locally we should use pull command at VS studio to bring new changes at file localy 
     
-## 
+<hr>
+
+## Cloning of file from global to local 
+
+To carry file from opened git hub resource directly to own personal account on git hub we need to implement few steps:
+
