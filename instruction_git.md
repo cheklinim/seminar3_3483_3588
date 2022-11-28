@@ -136,3 +136,6 @@ Sometimes we need to input changes when origin file isn't available. In that cas
 
 To carry file from opened git hub resource directly to own personal account on git hub we need to implement few steps:
 
+1. Fork fuction
+
+2. Link for clone
