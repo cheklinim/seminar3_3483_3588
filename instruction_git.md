@@ -153,4 +153,4 @@ VSСode дает возможность выбрать какое изменен
 
 Для загрузки все на удаленный репозиторий необходимо использовать команду 
 
-    Git push —set-upstream origin <name folder>
+    Git push —-set-upstream origin <name folder>
