@@ -176,4 +176,44 @@ known_hosts - это файл, в котором ssh прописывает се
 
 ## Для чего нужна команда git pull
 
+
 ## Для чего нужна команда git push
+
+Что такое push (пуш)
+Это отправка данных на сервер, в удаленный репозиторий, на github. Данные - это коммиты и ветки.
+
+Зачем пушить на сервер
+для работы в команде, чтобы делиться своим кодом с коллегами
+чтобы иметь резервную копию на случай потери данных на своей машине
+Когда пушить на сервер
+Когда сделали новый коммит или несколько коммитов
+
+Как узнать, что есть незапушенные коммиты
+В командной строке набрать git status
+
+    $ git status
+    
+    On branch master
+    $ git status
+    On branch master
+    Your branch is ahead of 'origin/master' by 5 commits.
+      (use "git push" to publish your local commits)
+    (use "git push" to publish your local commits)
+Ключевая фраза здесь "Your branch is ahead of 'origin/master' by 5 commits.". Это значит, что у нас есть 5 неотправленных на сервер коммитов. Если незапушенных коммитов нет, то картина будет такая
+
+
+    $ git status
+    
+    On branch master
+    Your branch is up-to-date with 'origin/master'.
+"is up-to-date" означает, что у нас нет незапушенных коммитов
+
+master и origin/master
+Это ветки: локальная и удаленная (на сервере, в github). По умолчанию мы находимся в ветке master. Подробно работу с ветками мы рассмотрим в следующем уроке, а пока достаточно запомнить, что master - это то, что на нашей машине, а origin/master - в удаленном репозитории, на github.
+
+git push в терминале
+
+    $ git push origin master
+push - что сделать, отправить
+origin - куда, на сервер
+master - что, ветку master
